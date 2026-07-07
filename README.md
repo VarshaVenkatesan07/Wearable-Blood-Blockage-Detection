@@ -22,12 +22,30 @@ The Wearable Blood Blockage Detection system is a healthcare monitoring solution
 ### Hardware
 - Arduino Nano
 - Pulse Sensor
-- Temperature Sensor
-- GSM Module
+- Temperature Sensor (LM35)
+- GSM Module (SIM800L/SIM900A)
+- OLED Display (Optional)
+- Battery Power Supply
 
 ### Software
 - Arduino IDE
 - Embedded C
+
+---
+
+## Components Used
+
+| Component | Purpose |
+|----------|---------|
+| Arduino Nano | Main microcontroller for processing sensor data |
+| Pulse Sensor | Measures the user's heart rate |
+| LM35 Temperature Sensor | Monitors body temperature |
+| GSM Module (SIM800L/SIM900A) | Sends SMS alerts during emergencies |
+| OLED Display (0.96" I2C) | Displays heart rate and temperature readings (optional) |
+| Rechargeable Battery | Powers the wearable device |
+| Jumper Wires | Electrical connections between components |
+| Breadboard/PCB | Circuit assembly and prototyping |
+| Power Switch | Turns the device ON/OFF |
 
 ---
 
@@ -55,4 +73,3 @@ The wearable device continuously collects heart rate and body temperature data u
 - Machine Learning-based health prediction
 
 ---
-
